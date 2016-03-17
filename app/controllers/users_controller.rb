@@ -45,7 +45,7 @@ class UsersController < ApplicationController
   	if @user.save_with_captcha
   		flash[:success] = "Thanks for registering, please check your email for the confirmation link"
   		session[:user_id] = @user.id
-      UserMailer.registration_confirmation(@user).deliver
+      # UserMailer.registration_confirmation(@user).deliver
   		redirect_to users_path
   	else
 

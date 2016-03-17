@@ -1,0 +1,71 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.navbar.navbar-default {
+	border-radius: 0px;
+}
+
+.footer {
+	background-color: $gray-dark;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.footer .copyright {
+	text-align: center;
+}
+
+.form-heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#confirm-label {
+	padding-left: 0px;
+}
+
+.table tr a {
+	text-decoration: none;
+}
+
+.avatar-img {
+	display: block;
+	padding-bottom: 20px;
+}
+
+.captcha {
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+	#confirm-label {
+		padding-left: 15px;
+	}
+}
+
+.required {
+	position: relative;
+}
+
+.required::after {
+	content: "*";
+	color: red;
+	font-weight: bold;
+	font-size: 2em;
+	display: block;
+	position: absolute;
+	right: -1px;
+	top: 3px;
+}

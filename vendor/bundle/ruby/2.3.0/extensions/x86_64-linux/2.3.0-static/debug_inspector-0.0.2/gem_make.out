@@ -1,0 +1,15 @@
+current directory: /home/msemko/Rails_Playground/user-test/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/msemko/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160308-16970-1uw91u8.rb extconf.rb
+creating Makefile
+
+current directory: /home/msemko/Rails_Playground/user-test/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/msemko/Rails_Playground/user-test/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/msemko/Rails_Playground/user-test/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20160308-16970-qphdwu

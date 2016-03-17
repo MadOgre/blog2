@@ -1,0 +1,26 @@
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container">
+<div class="row">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <%= link_to "MadOgre User Test", root_path, class: "navbar-brand" %>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <% if logged_in? %>
+        <li><%= link_to current_user.email, user_path(current_user)%></li>
+        <li><%= link_to "Logout", logout_path %></li>
+      <% else %>
+        <li><%= link_to "Login", login_path %></li>
+        <li><%= link_to "Register", register_path %></li>
+      <% end %>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div>
+  </div><!-- /.container -->
+</nav>
